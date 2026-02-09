@@ -5,10 +5,8 @@ export default function AppNavigation() {
     const Stack = createNativeStackNavigator();
 
     return (
-
             <Stack.Navigator>
                 <Stack.Screen name="Login" component={LoginScreen} />
             </Stack.Navigator>
-
     );
 }
